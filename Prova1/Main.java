@@ -100,7 +100,7 @@ public class Main {
 		planetas.add(new Planeta(4,2, "PHP",60f));
 		planetas.add(new Planeta(5,1, " C#",4f));
 		planetas.add(new Planeta(6,2, "C++",0.5f));
-		//planetas.add(new Planeta(7,10, "  C",0.5f));
+		planetas.add(new Planeta(7,10, "  C",0.5f));
 
 
         //Iniciando o universo

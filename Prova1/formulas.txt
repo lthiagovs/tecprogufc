@@ -1,0 +1,33 @@
+TAMANHO DO UNIVERSO (X) BASEADO NA DISTANCIA MÁXIMA:
+5+D + (D-2)
+
+TAMANHO DO UNIVERSO (Y) BASEADO NA DISTANCIA MÁXIMA:
+2*D+2
+
+DESCRIÇÃO PARA MOVIMENTO DOS PLANETAS NA HORIZONTAL (PX):
+(4+(dis-1))+dis
+
+DESCRIÇÃO PARA MOVIMENTO DOS PLANETAS NA VERTICAL (PY):
+2+(2*dis)
+
+DESCRIÇÃO DA POSIÇÃO INICIAL X e Y EM RELAÇÃO AO À DISTANCIA MÁXIMA:
+em y: (tam_UNIVERSO_Y/2)-D
+em x: ((tam_UNIVERSO_X-1) / 2) + 1
+
+FORMULAS PARA ENCONTRAR AS BORDAS DOS QUADRADOS EM RELAÇÃO AO TAMANHO DO UNIVERSO
+((tam_universoX-1)/2)+1 = centroX
+tam_universoY/2 = centroY
+
+horizontal anterior =
+{centroX - bEC}
+(range_x_planeta-1)/2 = bEC
+
+horizontal posterior =
+{centroX + bEC}
+(range_x_planeta-1)/2 = bEC
+
+vertical anterior  =
+{centroY - distanciaPlan}
+
+vertical posterior =
+{(centroY+1) + distanciaPlan}
